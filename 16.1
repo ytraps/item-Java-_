@@ -1,0 +1,73 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        System.out.print("16.1. С помощью датчика случайных чисел получить: ");
+        // а) 8 вещественных чисел n; (0≤n; <1)
+        System.out.println("а) 8 вещественных чисел n; (0 < n; <1): ");
+        for (int i = 0; i < 8; i++) 
+        {
+            double n = random.nextDouble();
+            System.out.println(n);
+        }
+        // б) k вещественных чисел n; (0≤n; <1). Значение k вводится с клавиатуры
+        //System.out.println("б) Введите значение k:");
+        //int k = scanner.nextInt();
+        //System.out.println("k вещественных чисел n; (0<n; <1):");
+        //for (int i = 0; i < k; i++) {
+            //double n = random.nextDouble();
+            //System.out.println(n);
+        //}
+        // в) 15 вещественных чисел n; (38<n, < 39)
+        //System.out.println("в) 15 вещественных чисел n; (38<n, < 39):");
+        //for (int i = 0; i < 15; i++) {
+            //double n = random.nextDouble() + 38;
+            //System.out.println(n);
+        //}
+        // г) 20 вещественных чисел n; (0<n; <10)
+        //System.out.println("г) 20 вещественных чисел n; (0<n; <10):");
+        //for (int i = 0; i < 20; i++) {
+            //double n = random.nextDouble() * 10;
+            //System.out.println(n);
+        //}
+        // д) натуральное число k, не превосходящее a, и k вещественных чисел n (0<n; <b). Значения a и b вводятся с клавиатуры
+        //System.out.println("д) Введите значение a:");
+        //int a = scanner.nextInt();
+        //System.out.println("Введите значение b:");
+        //int b = scanner.nextInt();
+        //System.out.println("Натуральное число k, не превосходящее a:");
+        //int k1 = random.nextInt(a) + 1; // +1, чтобы k было не меньше 1
+        //System.out.println(k1);
+        //System.out.println("k вещественных чисел n; (0<n; <b):");
+        //for //(int i = 0; i < k1; i++) {
+            //double n = random.nextDouble() * b;
+            //System.out.println(n);
+        //}
+        // е) 10 вещественных чисел n; (-50 ≤n; <50)
+        //System.out.println("е) 10 вещественных чисел n; (-50 <n; <50):");
+        //for (int i = 0; i < 10; i++) {
+            //double n = random.nextDouble() * 100 - 50;
+            //System.out.println(n);
+        //}
+        // ж) натуральное число k, не превосходящее t, и k вещественных чисел n; (a<n; <b). Значения t, a и b вводятся с клавиатуры.
+        //System.out.println("ж) Введите значение t:");
+        //int t = scanner.nextInt();
+        //System.out.println("Введите значение a:");
+        //int a1 = scanner.nextInt();
+        //System.out.println("Введите значение b:");
+        //int b1 = scanner.nextInt();
+        //System.out.println("Натуральное число k, не превосходящее t:");
+        //int k2 = random.nextInt(t) + 1;
+        //System.out.println(k2);
+        //System.out.println("k вещественных чисел n; (a<n; <b):");
+        //for (int i = 0; i < k2; i++) {
+            //double n = random.nextDouble() * (b1 - a1) + a1;
+            //System.out.println(n);
+        //}
+        
+        //scanner.close();
+    }
+}
